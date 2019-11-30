@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-zendrive",
+  "name": "react-native-zendrive-sdk",
   "version": "1.0.2",
   "description": "React Native bindings for Zendrive SDK",
   "main": "index.js",

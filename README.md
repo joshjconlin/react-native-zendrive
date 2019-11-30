@@ -3,7 +3,7 @@
 
 ## Getting started
 
-In your package.json add `git+ssh://git@github.com:bitesquad/react-native-zendrive.git#<version>`
+`npm install react-native-zendrive-sdk`
 
 
 ### Mostly automatic installation
@@ -69,7 +69,7 @@ and if on Android Q, ACCESS_BACKGROUND_LOCATION, ACTIVITY_RECOGNITION
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-zendrive` and add `RNZendrive.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-zendrive-sdk` and add `RNZendrive.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNZendrive.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Follow above steps for IOS
 5. Run your project (`Cmd+R`)<
@@ -92,7 +92,7 @@ and if on Android Q, ACCESS_BACKGROUND_LOCATION, ACTIVITY_RECOGNITION
 
 ## Usage
 ```javascript
-import RNZendrive from 'react-native-zendrive';
+import RNZendrive from 'react-native-zendrive-sdk';
 
 // enables zendrive sdk and starts insurance period 1
 RNZendrive.enableZendrive("driverID").then(res => res).catch(e => e)
