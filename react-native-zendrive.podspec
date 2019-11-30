@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-zendrive
                    DESC
-  s.homepage     = "https://github.com/bitesquad/react-native-zendrive"
+  s.homepage     = "https://github.com/joshjconlin/react-native-zendrive"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
-  s.authors      = { "Josh Conlin, Cade Beller" => "josh.conlin@waitrapp.com" }
+  s.authors      = { "Josh Conlin" => "joshjconlin@yahoo.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/bitesquad/react-native-zendrive.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/joshjconlin/react-native-zendrive.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
